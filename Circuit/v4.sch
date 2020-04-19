@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:v4-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -229,11 +228,11 @@ L Reference_Voltage:LM385Z-ADJ D1
 U 1 1 5D1FB1C3
 P 3360 2760
 F 0 "D1" V 3406 2672 50  0000 R CNN
-F 1 "AZ432ANTR-E1" V 3330 2610 50  0000 R CNN
+F 1 "TL432G-A-AE3-R" V 3330 2610 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 3360 2560 50  0001 C CIN
-F 3 "https://datasheet.lcsc.com/szlcsc/Diodes-Incorporated-AZ432ANTR-E1_C84139.pdf" H 3360 2760 50  0001 C CIN
-F 4 "C84139" V 3360 2760 50  0001 C CNN "LCSCStockCode"
-F 5 "AZ432ANTR-E1" V 3360 2760 50  0001 C CNN "PartNumber"
+F 3 "https://datasheet.lcsc.com/szlcsc/1808081832_UTC-Unisonic-Tech-TL432G-AE3-R_C171461.pdf" H 3360 2760 50  0001 C CIN
+F 4 "C171461" V 3360 2760 50  0001 C CNN "LCSCStockCode"
+F 5 "TL432G-A-AE3-R" V 3360 2760 50  0001 C CNN "PartNumber"
 	1    3360 2760
 	0    -1   -1   0   
 $EndComp

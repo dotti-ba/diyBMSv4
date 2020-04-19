@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>E:\source\diyBMSv4\Circuit\v4.sch</source>
-    <date>24/03/2020 09:43:26</date>
+    <date>19/04/2020 16:28:02</date>
     <tool>Eeschema (5.1.5)-3</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -69,12 +69,12 @@
       <tstamp>5D1ECDB4</tstamp>
     </comp>
     <comp ref="D1">
-      <value>AZ432ANTR-E1</value>
+      <value>TL432G-A-AE3-R</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/Diodes-Incorporated-AZ432ANTR-E1_C84139.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1808081832_UTC-Unisonic-Tech-TL432G-AE3-R_C171461.pdf</datasheet>
       <fields>
-        <field name="LCSCStockCode">C84139</field>
-        <field name="PartNumber">AZ432ANTR-E1</field>
+        <field name="LCSCStockCode">C171461</field>
+        <field name="PartNumber">TL432G-A-AE3-R</field>
       </fields>
       <libsource lib="Reference_Voltage" part="LM385Z-ADJ" description="Adjustable Micropower Voltage Reference Diodes, TO-92"/>
       <sheetpath names="/" tstamps="/"/>
