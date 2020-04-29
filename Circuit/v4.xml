@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>E:\source\diyBMSv4\Circuit\v4.sch</source>
-    <date>19/04/2020 16:28:02</date>
+    <date>29/04/2020 15:39:31</date>
     <tool>Eeschema (5.1.5)-3</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -220,11 +220,11 @@
       <tstamp>5BF67C7F</tstamp>
     </comp>
     <comp ref="R19">
-      <value>NCP18WB473J03RB</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+      <value>NTC THERMISTOR 47KOHMS 4050K</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
-        <field name="LCSCStockCode">C86142</field>
-        <field name="PartNumber">NCP18WB473J03RB</field>
+        <field name="LCSCStockCode">C77128</field>
+        <field name="PartNumber">NCP15WB473F03RC</field>
       </fields>
       <libsource lib="Device" part="Thermistor" description="Temperature dependent resistor"/>
       <sheetpath names="/" tstamps="/"/>
