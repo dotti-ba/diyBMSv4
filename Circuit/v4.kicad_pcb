@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 29)
+    (drawings 32)
     (tracks 369)
     (zones 0)
     (modules 54)
@@ -30,7 +30,7 @@
     (46 B.CrtYd user)
     (47 F.CrtYd user)
     (48 B.Fab user hide)
-    (49 F.Fab user hide)
+    (49 F.Fab user)
   )
 
   (setup
@@ -1096,7 +1096,7 @@
     )
   )
 
-  (module LEDs:LED_0805 (layer F.Cu) (tedit 59959803) (tstamp 5BF1A5A1)
+  (module LEDs:LED_0805 (layer F.Cu) (tedit 59959803) (tstamp 5F06F733)
     (at 105.5176 55.2876)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
@@ -2199,6 +2199,15 @@
     )
   )
 
+  (gr_text + (at 110.8176 89.0876) (layer F.SilkS) (tstamp 5F06F831)
+    (effects (font (size 0.8 0.8) (thickness 0.2)))
+  )
+  (gr_text + (at 131.0176 53.6876) (layer F.SilkS) (tstamp 5F06F82F)
+    (effects (font (size 0.8 0.8) (thickness 0.2)))
+  )
+  (gr_text + (at 107.2176 53.8876) (layer F.SilkS) (tstamp 5F06F806)
+    (effects (font (size 0.8 0.8) (thickness 0.2)))
+  )
   (gr_text JLCJLCJLCJLC (at 102.9176 60.2376 90) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.17)))
   )
