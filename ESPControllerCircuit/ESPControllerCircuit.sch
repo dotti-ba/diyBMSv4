@@ -89,8 +89,10 @@ U 1 1 5CD4CF59
 P 4040 6630
 F 0 "D1" H 4040 6540 50  0000 C CNN
 F 1 "COMMS" H 4030 6720 50  0000 C CNN
-F 2 "LEDs:LED_D5.0mm" H 4040 6630 50  0001 C CNN
-F 3 "~" H 4040 6630 50  0001 C CNN
+F 2 "LEDs:LED_0805" H 4040 6630 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-Green-0805-Iv-207-249-mcd-atIF-20mA_C2297.pdf" H 4040 6630 50  0001 C CNN
+F 4 "C2297" H 4040 6630 50  0001 C CNN "LCSCStockCode"
+F 5 "Hubei KENTO Elec Green 0805" H 4040 6630 50  0001 C CNN "PartNumber"
 	1    4040 6630
 	-1   0    0    1   
 $EndComp
@@ -431,7 +433,7 @@ U 1 1 5CE02B8B
 P 2670 3900
 F 0 "U3" H 2670 4781 50  0000 C CNN
 F 1 "PCF8574T/3,518" H 2690 4880 50  0000 C CNN
-F 2 "SMD_Packages:SO-16-W" H 2670 3900 50  0001 C CNN
+F 2 "Housings_SOIC:SOIC-16W_7.5x10.3mm_Pitch1.27mm" H 2670 3900 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/I-O-Expansion_NXP_PCF8574T-3-518_PCF8574T-3-518_C7605.html" H 2670 3900 50  0001 C CNN
 F 4 "" H 2670 3900 50  0001 C CNN "LCSCPart"
 F 5 "C7605" H 2670 3900 50  0001 C CNN "LCSCStockCode"
@@ -618,17 +620,6 @@ Wire Wire Line
 	4530 4680 4600 4680
 Text Notes 5150 4430 0    50   ~ 0
 J1-J4 switch inputs (not optoisolated!)
-$Comp
-L Connector:Conn_01x03_Male J5
-U 1 1 5CEE1C26
-P 5120 6310
-F 0 "J5" H 5092 6192 50  0000 R CNN
-F 1 "Optional" H 5092 6283 50  0000 R CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5120 6310 50  0001 C CNN
-F 3 "~" H 5120 6310 50  0001 C CNN
-	1    5120 6310
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3140 6430 3420 6430
 Wire Wire Line
@@ -671,4 +662,15 @@ Wire Wire Line
 	4750 6310 4750 6050
 Wire Wire Line
 	4750 6050 4620 6050
+$Comp
+L Connector:Conn_01x03_Male J5
+U 1 1 5CEE1C26
+P 5120 6310
+F 0 "J5" H 5092 6192 50  0000 R CNN
+F 1 "Optional" H 5092 6283 50  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5120 6310 50  0001 C CNN
+F 3 "~" H 5120 6310 50  0001 C CNN
+	1    5120 6310
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
