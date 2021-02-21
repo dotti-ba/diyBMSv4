@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 update=16/01/2021 11:32:40
+=======
+update=16/01/2021 11:31:13
+>>>>>>> jlcpcbassembly
 version=1
 last_client=kicad
 [general]
